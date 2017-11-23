@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88E0ABBD1FC7019F009995F5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0ABBC1FC7019F009995F5 /* main.cpp */; };
+		88E0ABCA1FC71066009995F5 /* q4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88E0ABC91FC71066009995F5 /* q4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,11 @@
 
 /* Begin PBXFileReference section */
 		88E0ABB91FC7019F009995F5 /* BStree-AVLtree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BStree-AVLtree"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88E0ABBC1FC7019F009995F5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		88E0ABC31FC702F6009995F5 /* lqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lqueue.h; sourceTree = "<group>"; };
+		88E0ABC41FC702F6009995F5 /* binarytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarytree.h; sourceTree = "<group>"; };
+		88E0ABC51FC702F6009995F5 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		88E0ABC61FC702F6009995F5 /* xcept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xcept.h; sourceTree = "<group>"; };
+		88E0ABC91FC71066009995F5 /* q4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = q4.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,11 @@
 		88E0ABBB1FC7019F009995F5 /* BStree-AVLtree */ = {
 			isa = PBXGroup;
 			children = (
-				88E0ABBC1FC7019F009995F5 /* main.cpp */,
+				88E0ABC91FC71066009995F5 /* q4.cpp */,
+				88E0ABC41FC702F6009995F5 /* binarytree.h */,
+				88E0ABC31FC702F6009995F5 /* lqueue.h */,
+				88E0ABC51FC702F6009995F5 /* node.h */,
+				88E0ABC61FC702F6009995F5 /* xcept.h */,
 			);
 			path = "BStree-AVLtree";
 			sourceTree = "<group>";
@@ -119,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E0ABBD1FC7019F009995F5 /* main.cpp in Sources */,
+				88E0ABCA1FC71066009995F5 /* q4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
